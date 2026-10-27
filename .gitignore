@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Local configuration and runtime data
+.env
+backend/data/
+*.db
+*.sqlite3
+*.log
+
+# Model and generated asset files
+models/**/*
+!models/**/.gitkeep
+android/Library/
+android/Temp/
+android/Obj/
+android/Bin/
+android/Build/
+android/UserSettings/
+android/Logs/
+android/*.csproj
+android/*.sln
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

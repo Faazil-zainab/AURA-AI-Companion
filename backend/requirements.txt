@@ -1,0 +1,8 @@
+# Python 3.11+ runtime dependencies for the local Phase-1 backend.
+fastapi>=0.115,<1
+uvicorn[standard]>=0.34,<1
+httpx>=0.28,<1
+python-dotenv>=1,<2
+
+# Test dependency
+pytest>=8,<9

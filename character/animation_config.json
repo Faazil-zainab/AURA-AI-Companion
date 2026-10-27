@@ -1,0 +1,10 @@
+{
+  "blink_interval_seconds": [3.0, 6.0],
+  "head_motion_enabled": true,
+  "eye_contact_enabled": true,
+  "lip_sync": {
+    "mode": "audio_amplitude",
+    "smoothing": 0.15
+  },
+  "phase": 5
+}

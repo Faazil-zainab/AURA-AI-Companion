@@ -1,0 +1,5 @@
+{
+  "supported": ["neutral", "happy", "sad", "surprised", "shy", "thoughtful"],
+  "default": "neutral",
+  "phase": 7
+}
